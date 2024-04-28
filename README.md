@@ -4,12 +4,15 @@ Project Management it an app where project is alloted and its tracked by project
 
 ## Features
 - Live Preview
-![Uploading Screenshot (36).png…]()
+-Login might take some time
+![Screenshot (36)](https://github.com/codezen879/PROJECT_MANAGEMENT/assets/95371909/2bb29b7f-dc48-4731-ac6c-5b69187e529c)
 
 ##
 - Free to use
 
 ## Screen Shot of Project
+![image](https://github.com/codezen879/PROJECT_MANAGEMENT/assets/95371909/2861d3b1-c92e-44a3-8dd3-2cb8902f135a)
+
 ##
 ## Tech Stack
 - React
