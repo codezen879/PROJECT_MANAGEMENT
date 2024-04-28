@@ -1,1 +1,1 @@
-export const server ="https://project-mangement.onrender.com"
+export const server  ="https://project-mangement.onrender.com"
