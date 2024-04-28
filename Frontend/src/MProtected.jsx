@@ -9,7 +9,7 @@ const MProtected = (props) => {
     let login=localStorage.getItem('login');
     let admin=localStorage.getItem('admin')
     if(!login||!admin)navigate('/')
-    else console.log("hii")
+   
   }) 
   return (
     <div>
