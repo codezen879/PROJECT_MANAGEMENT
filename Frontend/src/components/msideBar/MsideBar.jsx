@@ -109,7 +109,7 @@ let subtitle;
 
   const handleSignOut=()=>{
     localStorage.clear();
-    window.location.href = '/login';
+    window.location.href = '/';
   }
   return (
     <div className="main">
