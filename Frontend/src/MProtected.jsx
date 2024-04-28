@@ -8,7 +8,7 @@ const MProtected = (props) => {
   useEffect(()=>{
     let login=localStorage.getItem('login');
     let admin=localStorage.getItem('admin')
-    if(!login||!admin)navigate('/login')
+    if(!login||!admin)navigate('/')
   }) 
   return (
     <div>
