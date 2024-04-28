@@ -78,7 +78,7 @@ const SideBar = (props) => {
   };
   const handleSignOut = () => {
     localStorage.clear();
-    window.location.href = "/login";
+    window.location.href = "/";
   };
   const { Item } = props;
   return (
