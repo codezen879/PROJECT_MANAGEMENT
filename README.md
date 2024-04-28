@@ -4,9 +4,7 @@ Project Management it an app where project is alloted and its tracked by project
 
 ## Features
 - Live Preview
-- CREDENTIALS :
-- EMP0021
-- password
+![Uploading Screenshot (36).png…]()
 
 ##
 - Free to use
