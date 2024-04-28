@@ -24,6 +24,7 @@ function App() {
     <Router>
       <Routes>
       <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/register" element={<MProtected Component={Register} />} />
       <Route path="/ProjectSubmitted" element={<Protected Component={ProjectSubmitted} />} />
       <Route path="/employee" element={<Protected Component={Employee} />} />
