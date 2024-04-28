@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Msidecontainer{
+    height: 130vh;
+    width: 19vw;
+    background:rgb(141,146,175);
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    border: rgb(2, 2, 2) solid 1px;
+   
+
+}
+.MNavcontainer{
+    height: 10vh;
+    width: 85.7vw;
+    background-color:  rgb(50,49,56);
+    border: rgb(2, 2, 2) solid 1px;
+   
+
+}
+.main{
+    display: flex;
+    
+}
+/* .sd12{
+    margin-top: 2vh;
+    color: rgb(227, 227, 227);
+    font-size: 1.2vw;
+    font-weight: 800;
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+.sd1{
+    color: rgb(227, 227, 227);
+    font-size: 1.2vw;
+    font-weight: 800;
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+} */
+.msd13 img{
+    width: 8vw;
+    height: 15vh;    
+}
+.msd13{ 
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    /* border:  rgb(70, 70, 70) solid 2px; */
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.mtaskGiven1,.mtaskGiven2,.mtaskGiven3,.mtaskGiven4,.mtaskGiven5,.mtaskGiven6{
+    display: flex;
+    gap: 1vw;
+    /* border: rgb(70, 70, 70) solid 2px; */
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    cursor: pointer;
+}
+.mtaskGiven1.clicked1 {
+    background-color: lightgray;
+    /* Change to the desired color */
+}
+.mtaskGiven1.clicked1 span{
+    color: rgb(1, 1, 1);
+    /* Change to the desired color */
+}
+.mtaskGiven2.clicked2 {
+    background-color: lightgray;
+    /* Change to the desired color */
+}
+.mtaskGiven2.clicked2 span{
+    color: rgb(1, 1, 1);
+    /* Change to the desired color */
+}
+.mtaskGiven3.clicked3 {
+    background-color: lightgray;
+    /* Change to the desired color */
+}
+.mtaskGiven3.clicked3 span{
+    color: rgb(1, 1, 1);
+    /* Change to the desired color */
+}
+.mtaskGiven4.clicked4 {
+    background-color: lightgray;
+    /* Change to the desired color */
+}
+.mtaskGiven4.clicked4 span{
+    color: rgb(1, 1, 1);
+    /* Change to the desired color */
+}
+.mtaskGiven5.clicked5 {
+    background-color: lightgray;
+}.mtaskGiven6.clicked6 {
+    background-color: lightgray;
+}
+.mtaskGiven5.clicked5 span{
+    color: rgb(1, 1, 1);
+}
+.mtaskGiven6.clicked6 span{
+    color: rgb(1, 1, 1);
+}
+.mtaskGivenImage img{
+    width: 3vw;
+    height: 5vh;
+    margin-left: 0.4vw;
+}
+.mtaskGivenText{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.mtaskGivenText span{
+    color: rgb(227, 227, 227);
+    font-size: 1.2vw;
+    font-weight:900;
+}
+.MNavcontainer{
+    display: flex;
+    justify-content: end;
+    
+}
+.mnavBarContent {
+    display: flex;
+}
+.mnavBarContent img{
+    cursor: pointer;
+    width: 3vw;
+    height: 5vh;  
+    display: flex;
+    
+    margin-right: 2vw;
+
+}
+.mbut12{
+    display: flex;
+    gap: 1vw;
+    margin-right: 1vw;
+}
+.mbut1 button{
+background-color: rgb(88, 89, 89);
+width: 6vw;
+height: 4vh;
+font-size: 0.9vw;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 900;
+
+}
+.mimg1{
+margin-top: 0.96vw;
+}
+.mnAndB{
+    display: flex;
+    flex-direction: column;
+}
+a{
+        text-decoration: none; 
+}
+
+
