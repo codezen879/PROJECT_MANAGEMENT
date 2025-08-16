@@ -90,11 +90,11 @@ WSGI_APPLICATION = 'mynotes.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default="postgresql://pm_2425_user:gb4Fxbs4iOYSQ8cVGpt384Z31DLDnIFV@dpg-d2g6nb0gjchc73aosk60-a/pm_2425",
+        default="postgresql://pm_2425_user:gb4Fxbs4iOYSQ8cVGpt384Z31DLDnIFV@dpg-d2g6nb0gjchc73aosk60-a.oregon-postgres.render.com/pm_2425",
         conn_max_age=600
     )
 }
-DATABASES["default"]["OPTIONS"] = {"sslmode": "require"}
+# DATABASES["default"]["OPTIONS"] = {"sslmode": "require"}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
