@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 import dj_database_url
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -86,14 +87,15 @@ WSGI_APPLICATION = 'mynotes.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
 DATABASES = {
     'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default="postgresql://pm_2425_user:gb4Fxbs4iOYSQ8cVGpt384Z31DLDnIFV@dpg-d2g6nb0gjchc73aosk60-a/pm_2425",
         conn_max_age=600,
         ssl_require=True
     )
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
